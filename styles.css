@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.opacidad{
+    opacity: 75%;
+}
+.card-60{
+    width: 60%;
+}
+.ignite{
+    text-decoration-style: dotted;
+    color: rgb(0, 0, 0);
+}
+.card-50{
+    width: 50%;
+}
+.p1{
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.ts{
+    font-size:small !important;
+}
+.w-80{
+    width: 80%;
+}
+.bg-celeste{
+    background-color:rgb(162, 226, 255);
+    color: rgb(0, 0, 0);
+}
+.bordeEstudiante{
+    border-color: rgb(162, 226, 255) !important;
+}
+.bg-trainee{
+    background-color:rgb(60, 246, 172);
+    color: rgb(0, 0, 0);
+}
+.bordeTrainee{
+    border-color: rgb(60, 246, 172) !important;
+}
+
+.bg-junior{
+    background-color:rgb(246, 187, 60);
+    color: rgb(0, 0, 0);
+}
+.bordeJunior{
+    border-color: rgb(246, 187, 60) !important;
+}
+.c-verde-claro{
+    background-color: #a9fa6f;
+}
+
