@@ -9,8 +9,8 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg bg-dark" >
+    <div class="container-fluid w-100">
+      <nav class="navbar navbar-expand-lg bg-dark sticky-top" id="menu">
         <div class="container">
           <img src="img/codoacodo.png" alt="Codo a Codo"  width="20%">
           <p class="text-white fs-4">Conf Bs As</p>
@@ -20,7 +20,7 @@
           <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
             <ul class="navbar-nav flex-sm-row">
               <li class="nav-item">
-                <a type="button" class="btn btn-outline-secondary border-0 text-white" href="#">La Conferecia</a>
+                <a type="button" class="btn btn-outline-secondary border-0 text-white" href="index.html">La Conferecia</a>
               </li>
               <li class="nav-item">
                 <a type="button" class="btn btn-outline-secondary border-0 text-white" href="#">Los Oradores</a>
@@ -32,7 +32,7 @@
                 <a type="button" class="btn btn-outline-secondary border-0 text-white" href="#">Conviértete en Orador</a>
               </li>
               <li class="nav-item">
-                <a type="button" class="btn btn-outline-success border-0" href="#">Comprar Tickes</a>
+                <a type="button" class="btn btn-outline-success border-0" href="ticket.html">Comprar Tickes</a>
               </li>
             </ul>
           </div>
@@ -134,7 +134,7 @@
     <p class="text-center text-lg-center fs-3">ORADOR</p>
     <p class="text-center text-lg-center fs-5">Anótate como orador para dar una <a href="#" class="ignite">charla ignite</a>. Cuéntanos de qué quieres hablar.</p>
     <div class="d-block card-50 mx-auto">
-        <div class="mb-3 d-flex" >
+        <div class="mb-3 d-flex">
             <input type="text" class="form-control"  placeholder="Nombres">
             <input type="text" class="form-control ms-3"  placeholder="Apellido">
         </div>
@@ -147,7 +147,7 @@
        
 
     </main>
-    <footer class="p-0">
+    <footer class="p-0 sticky-xl-top">
       <div class="container-fluid bg-dark p-1 text-center">
           <button type="button" class="btn btn-outline-secondary border-0 text-white">Preguntas <br> frecuentes</button>
           <button type="button" class="btn btn-outline-secondary border-0 text-white">Contáctanos</button>
@@ -158,6 +158,7 @@
           <button type="button" class="btn btn-outline-secondary border-0 text-white">Estudiantes</button>
       </div>
     </footer>
+    <script src="js/js.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </body>
